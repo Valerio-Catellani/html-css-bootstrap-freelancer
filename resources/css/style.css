@@ -43,6 +43,9 @@
   background-color: black;
 }
 
+.hype-container-70x100 {
+  width: 70%;
+}
 
 /*Navbar*/
 
@@ -61,6 +64,25 @@ header nav a.navbar-brand:hover {
 #hero .avatar-container {
   width: 250px;
 }
+
+/*SECTION: Contact*/
+
+
+#contact form .form-control {
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: inherit;
+}
+
+#contact form .btn:hover {
+  background-color: rgb(26, 188, 156, 0.9);
+  box-shadow: black 1px 1px 10px;
+}
+
+
+
 
 
 
