@@ -1,3 +1,18 @@
+/*colors*/
+:root {
+  --color-hype-bg-header: #2c3e50;
+  --color-hype-bg-footer: #2c3e50;
+}
+
+.hype-bg-header {
+  background-color: var(--color-hype-bg-header)
+}
+
+.hype-bg-footer {
+  background-color: var(--color-hype-bg-footer);
+}
+
+
 .hype-light-green {
   background-color: #1ABC9C;
 }
@@ -6,13 +21,48 @@
   background-color: #1ABC9C;
 }
 
-header #portfolio-nav a.nav-link {
+/*DOCUMENT*/
+
+.white-star::after,
+.white-star::before {
+  content: '';
+  display: block;
+  margin: 0 15px;
+  width: 18%;
+  height: 4px;
+  background-color: white;
+}
+
+.black-star::after,
+.black-star::before {
+  content: '';
+  display: block;
+  margin: 0 15px;
+  width: 18%;
+  height: 4px;
+  background-color: black;
+}
+
+
+/*Navbar*/
+
+header #portfolio-nav a.nav-link,
+header nav a.navbar-brand {
   color: white;
 }
 
-header #portfolio-nav a.nav-link:hover {
+header #portfolio-nav a.nav-link:hover,
+header nav a.navbar-brand:hover {
   color: #1ABC9C;
 }
+
+/*SECTION: Hero*/
+
+#hero .avatar-container {
+  width: 250px;
+}
+
+
 
 .hype-card::after {}
 

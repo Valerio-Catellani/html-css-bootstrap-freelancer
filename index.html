@@ -13,15 +13,15 @@
   <link rel="stylesheet" href="resources/css/style.css">
   <link rel="stylesheet" href="resources/css/animation.css">
   <link rel="stylesheet" href="resources/css/media-query.css">
-  <title>Document</title>
+  <title>Bootstrap Freelancer</title>
 </head>
 
 <body>
-  <header class="bg-black">
+  <header>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg hype-bg-header">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand text-uppercase fw-bold " href="#">Start Bootstrap</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-nav"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,16 +29,13 @@
         <div class="collapse navbar-collapse" id="portfolio-nav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-uppercase fw-bold fs-6" href="#">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-uppercase fw-bold fs-6" href="#">about</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link text-uppercase fw-bold fs-6" href="#">contact</a>
             </li>
           </ul>
         </div>
@@ -47,55 +44,93 @@
 
   </header>
   <main class="text-center ">
+
     <section id="hero" class="hype-light-green">
-      <div class="container">
-        hero
+      <div class="container text-white py-5">
+        <div class="avatar-container mx-auto"> <!--width 25% of the parent-->
+          <img src="resources/img/avatar.svg" class="img-fluid" alt="avatar">
+        </div>
+        <h2 class="text-uppercase display-3 fw-bold ">start bootstrap</h2>
+        <div class="white-star mx-auto d-flex align-items-center justify-content-center py-3">
+          <i class="fa-solid fa-star fs-1"></i>
+        </div>
+        <p class="text-uppercase fs-3">graphic artist - web designer - illustrator</p>
       </div>
     </section>
+
     <section id="portfoglio" class="bg-light">
-      <div class="container">
-        <h2 class="text-uppercase">portfoglio</h2>
-        <p>stella</p>
+      <div class="container py-5">
+        <h2 class="text-uppercase display-3 fw-bold">portfoglio</h2>
+        <div class="black-star mx-auto d-flex align-items-center justify-content-center py-3">
+          <i class="fa-solid fa-star fs-1"></i>
+        </div>
         <div class="row gy-4">
           <div class="col-12 col-md-6 col-xl-4">
             <div class="card overflow-hidden">
-              <img src="..." class="card-img-top img-fluid" alt="...">
+              <img src="resources/img/cabin.png" class="card-img-top img-fluid" alt="cabin">
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4">
             <div class="card overflow-hidden">
-              <img src="..." class="card-img-top img-fluid" alt="...">
+              <img src="resources/img/cake.png" class="card-img-top img-fluid" alt="cake">
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4">
             <div class="card overflow-hidden">
-              <img src="..." class="card-img-top img-fluid" alt="...">
+              <img src="resources/img/circus.png" class="card-img-top img-fluid" alt="circus">
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4">
             <div class="card overflow-hidden">
-              <img src="..." class="card-img-top img-fluid" alt="...">
+              <img src="resources/img/game.png" class="card-img-top img-fluid" alt="game">
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4">
             <div class="card overflow-hidden">
-              <img src="..." class="card-img-top img-fluid" alt="...">
+              <img src="resources/img/safe.png" class="card-img-top img-fluid" alt="safe">
             </div>
           </div>
           <div class="col-12 col-md-6 col-xl-4">
             <div class="card overflow-hidden">
-              <img src="..." class="card-img-top img-fluid" alt="...">
+              <img src="resources/img/submarine.png" class="card-img-top img-fluid" alt="submarine">
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-      </div>
-    </section>
     <section id="about" class="hype-light-green">
-      <div class="container">
-        about
+      <div class="container text-white py-5">
+        <h2 class="text-uppercase display-3 fw-bold ">about</h2>
+        <div class="white-star mx-auto d-flex align-items-center justify-content-center py-3">
+          <i class="fa-solid fa-star fs-1"></i>
+        </div>
+        <div class="row align-items-center justify-content-center gap-1 mb-5">
+          <div class="col-12 col-md-5">
+            <!--non mi serve dare un container più piccolo, basta diminuire il valore di col da 6 a 5-->
+            <p class="text-start fs-3">Freelancer is a free bootstrap
+              theme created by Start Bootstrap.
+              The download includes the
+              complete source files including
+              HTML, CSS, and JavaScript as
+              well as optional LESS stylesheets
+              for easy customization.</p>
+          </div>
+          <div class="col-12 col-md-5">
+            <p class="text-start fs-3">Whether you're a student looking
+              to showcase your work, a
+              professional looking to attract
+              clients, or a graphic artist looking
+              to share your projects, this
+              template is the perfect starting
+              point!</p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-download"></i>
+          Download</button>
       </div>
     </section>
+
     <section id="contact" class="bg-light">
       <div class="container">
         contact
