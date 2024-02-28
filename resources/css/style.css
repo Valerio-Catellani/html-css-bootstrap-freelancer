@@ -1,0 +1,20 @@
+.hype-light-green {
+  background-color: #1ABC9C;
+}
+
+.hype-bg-footer-bottom {
+  background-color: #1ABC9C;
+}
+
+header #portfolio-nav a.nav-link {
+  color: white;
+}
+
+header #portfolio-nav a.nav-link:hover {
+  color: #1ABC9C;
+}
+
+.hype-card::after {}
+
+
+/* a 768 cambia tutto in colonna*/
