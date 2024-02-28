@@ -1,6 +1,6 @@
 /*colors*/
 :root {
-  --color-hype-bg-header: #2c3e50;
+  --color-hype-bg-header: #3a546d;
   --color-hype-bg-footer: #2c3e50;
 }
 
@@ -12,13 +12,16 @@
   background-color: var(--color-hype-bg-footer);
 }
 
+.hype-text-light-green {
+  color: #1ABC9C;
+}
 
 .hype-light-green {
   background-color: #1ABC9C;
 }
 
 .hype-bg-footer-bottom {
-  background-color: #1ABC9C;
+  background-color: var(--color-hype-bg-footer)
 }
 
 /*DOCUMENT*/
@@ -45,6 +48,11 @@
 
 .hype-container-70x100 {
   width: 70%;
+}
+
+.hype-pointer:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 /*Navbar*/
@@ -74,6 +82,7 @@ header nav a.navbar-brand:hover {
   border-left: none;
   border-right: none;
   background-color: inherit;
+  /*potevo darlo direttamente con bootstrap ma ho preferito in questo modo*/
 }
 
 #contact form .btn:hover {
@@ -82,7 +91,12 @@ header nav a.navbar-brand:hover {
 }
 
 
-
+/*FOOTER*/
+footer #footer-top .icon-container {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+}
 
 
 
